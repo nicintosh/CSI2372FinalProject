@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284F7B7F1A24336C00E7DD97 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 284F7B7E1A24336C00E7DD97 /* main.cpp */; };
+		284F7B881A24344700E7DD97 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 284F7B861A24344700E7DD97 /* player.cpp */; };
+		284F7B8B1A24348D00E7DD97 /* gameBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 284F7B891A24348D00E7DD97 /* gameBoard.cpp */; };
+		284F7B8E1A2434C900E7DD97 /* tileFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 284F7B8C1A2434C900E7DD97 /* tileFactory.cpp */; };
+		284F7B911A24354000E7DD97 /* tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 284F7B8F1A24354000E7DD97 /* tile.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		284F7B791A24336C00E7DD97 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		284F7B7B1A24336C00E7DD97 /* CSI2372FinalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSI2372FinalProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		284F7B7E1A24336C00E7DD97 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		284F7B851A2433BC00E7DD97 /* JulienCode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JulienCode.txt; sourceTree = "<group>"; };
+		284F7B861A24344700E7DD97 /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		284F7B871A24344700E7DD97 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		284F7B891A24348D00E7DD97 /* gameBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gameBoard.cpp; sourceTree = "<group>"; };
+		284F7B8A1A24348D00E7DD97 /* gameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameBoard.h; sourceTree = "<group>"; };
+		284F7B8C1A2434C900E7DD97 /* tileFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tileFactory.cpp; sourceTree = "<group>"; };
+		284F7B8D1A2434C900E7DD97 /* tileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tileFactory.h; sourceTree = "<group>"; };
+		284F7B8F1A24354000E7DD97 /* tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tile.cpp; sourceTree = "<group>"; };
+		284F7B901A24354000E7DD97 /* tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tile.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284F7B781A24336C00E7DD97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		284F7B721A24336C00E7DD97 = {
+			isa = PBXGroup;
+			children = (
+				284F7B851A2433BC00E7DD97 /* JulienCode.txt */,
+				284F7B7D1A24336C00E7DD97 /* CSI2372FinalProject */,
+				284F7B7C1A24336C00E7DD97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		284F7B7C1A24336C00E7DD97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284F7B7B1A24336C00E7DD97 /* CSI2372FinalProject */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284F7B7D1A24336C00E7DD97 /* CSI2372FinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				284F7B8C1A2434C900E7DD97 /* tileFactory.cpp */,
+				284F7B8D1A2434C900E7DD97 /* tileFactory.h */,
+				284F7B891A24348D00E7DD97 /* gameBoard.cpp */,
+				284F7B8A1A24348D00E7DD97 /* gameBoard.h */,
+				284F7B7E1A24336C00E7DD97 /* main.cpp */,
+				284F7B861A24344700E7DD97 /* player.cpp */,
+				284F7B871A24344700E7DD97 /* player.h */,
+				284F7B8F1A24354000E7DD97 /* tile.cpp */,
+				284F7B901A24354000E7DD97 /* tile.h */,
+			);
+			path = CSI2372FinalProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284F7B7A1A24336C00E7DD97 /* CSI2372FinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284F7B821A24336C00E7DD97 /* Build configuration list for PBXNativeTarget "CSI2372FinalProject" */;
+			buildPhases = (
+				284F7B771A24336C00E7DD97 /* Sources */,
+				284F7B781A24336C00E7DD97 /* Frameworks */,
+				284F7B791A24336C00E7DD97 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSI2372FinalProject;
+			productName = CSI2372FinalProject;
+			productReference = 284F7B7B1A24336C00E7DD97 /* CSI2372FinalProject */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		284F7B731A24336C00E7DD97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nick Burgel & Julien Turcotte";
+				TargetAttributes = {
+					284F7B7A1A24336C00E7DD97 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 284F7B761A24336C00E7DD97 /* Build configuration list for PBXProject "CSI2372FinalProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 284F7B721A24336C00E7DD97;
+			productRefGroup = 284F7B7C1A24336C00E7DD97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				284F7B7A1A24336C00E7DD97 /* CSI2372FinalProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284F7B771A24336C00E7DD97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284F7B8B1A24348D00E7DD97 /* gameBoard.cpp in Sources */,
+				284F7B881A24344700E7DD97 /* player.cpp in Sources */,
+				284F7B8E1A2434C900E7DD97 /* tileFactory.cpp in Sources */,
+				284F7B911A24354000E7DD97 /* tile.cpp in Sources */,
+				284F7B7F1A24336C00E7DD97 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		284F7B801A24336C00E7DD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		284F7B811A24336C00E7DD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		284F7B831A24336C00E7DD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		284F7B841A24336C00E7DD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284F7B761A24336C00E7DD97 /* Build configuration list for PBXProject "CSI2372FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284F7B801A24336C00E7DD97 /* Debug */,
+				284F7B811A24336C00E7DD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284F7B821A24336C00E7DD97 /* Build configuration list for PBXNativeTarget "CSI2372FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284F7B831A24336C00E7DD97 /* Debug */,
+				284F7B841A24336C00E7DD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 284F7B731A24336C00E7DD97 /* Project object */;
+}
